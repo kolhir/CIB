@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".CreateFileActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/create_file_bottom_border"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonBack"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            app:srcCompat="@drawable/ic_6465a4a60c40749b2a21c33161abf95e" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="9"
+            android:gravity="center_vertical"
+            android:padding="7dp"
+            android:text="@string/dossier_info"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:orientation="vertical"
+                android:background="@drawable/persinfo_border"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/t123"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:background="@drawable/text_border_lang"
+                    android:paddingBottom="5dp"
+                    android:text="@string/dateset1"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".2"
+                android:orientation="vertical"
+                android:background="@drawable/persinfo_border"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17dp"
+                    android:background="@drawable/text_border_lang"
+                    android:paddingBottom="5dp"
+                    android:text="@string/dateset1"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/for_company_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".2"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

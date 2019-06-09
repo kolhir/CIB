@@ -1,0 +1,195 @@
+<resources>
+
+    <string name="app_name">CIB</string>
+
+    <!--Title_Navigation-->
+    <string name="title_settings">Settings</string>
+    <string name="title_dossier">Dossiers</string>
+    <string name="title_home">Home</string>
+    <string name="title_tba"></string>
+    <string name="title_profile">Profile</string>
+
+    <!--Settings-->
+    <string name="lang">Language</string>
+    <string-array name="langs">
+        <item>English</item>
+        <item>Niderlands</item>
+    </string-array>
+
+
+    <!--Login-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log in</string>
+    <string name="remember">Remember me</string>
+    <!--Home-->
+    <string name="block1">Block1</string>
+    <string name="submit_new_dossier">Submit new dossier</string>
+
+    <!--Settings-->
+    <string name="language">Language</string>
+    <string name="eng">English</string>
+    <string name="privacy">Privacy</string>
+    <string name="terms_and_cond">Terms and Conditions</string>
+    <string name="change_password">Change password</string>
+    <string name="log_out">Log out</string>
+
+    <!--Dossier-->
+    <string name="search_bar">Search bar</string>
+    <string name="dossier_nr">Dossier nr.</string>
+    <string name="debtor">Debtor</string>
+    <string name="status">Status</string>
+    <string name="to_receive">To receive</string>
+
+    <!--Personal-->
+    <string name="account_details">Account details</string>
+
+    <string name="personal_info">Personal information</string>
+    <string name="contract_info">Contract information</string>
+    <string name="change_info">Change information</string>
+
+    <!--Create file-->
+    <string name="title_activity_create_file">CreateFileActivity</string>
+    <string name="create_file">Create file</string>
+    <string name="continue_">Continue</string>
+    <string name="mandatory_fields">Fields with * are mandatory</string>
+    <!--1/6-->
+    <string name="p1">1/6</string>
+    <string name="file">File</string>
+    <string name="ref">Reference</string>
+    <string name="domestic">Domestic</string>
+    <string name="foreign">Foreign</string>
+
+    <!--2/6-->
+    <string name="p22">2/6</string>
+    <string name="type_">Type *</string>
+    <string name="type_private">Private</string>
+
+
+    <!--2/6-->
+    <string name="p2">2/6</string>
+    <string name="deb_details">Debtor details</string>
+    <string name="type_comp">Company</string>
+    <string name="deb_comp">Debtor Company name *</string>
+    <string name="chamber">Chamber of commerce *</string>
+
+    <!--Drop down legal type-->
+    <string name="drop_down_legal_type">Legal type</string>
+    <string-array name="drop_down_legal_type">
+        <item>Eenmanszaak (EZ)</item>
+        <item>Vennootschap onder firma (VOF)</item>
+        <item>Commanditaire vennootschap (CV)</item>
+        <item>Maatschap</item>
+        <item>Stichting</item>
+        <item>Vereniging</item>
+        <item>Natuurlijk Persoon</item>
+        <item>Besloten vennootschap (BV)</item>
+    </string-array>
+
+    <!--3/6-->
+    <string name="p3">3/6</string>
+    <string name="salutation">Salutation: *</string>
+    <string name="last_name">Last name:</string>
+    <string name="phone_numb">Phone number:</string>
+    <string name="email">Email:</string>
+    <string name="company">Company: *</string>
+
+    <!--4/6-->
+    <string name="p4">4/6</string>
+    <string name="location">Location</string>
+    <string name="country">Country *</string>
+    <string-array name="drop_down_country">
+        <item>Netherlands (default)</item>
+    </string-array>
+    <string name="post_code">Post code *</string>
+    <string name="house">House number *</string>
+    <string name="extension">Extension</string>
+    <string name="adress">Address *</string>
+    <string name="city">City *</string>
+
+
+    <string name="p5">5/6</string>
+    <string name="extra_info">Extra information</string>
+    <string name="var1">Variable 1</string>
+    <string name="var2">Variable 2</string>
+    <string name="add_var">Additional variable</string>
+
+
+    <string name="p6">6/6</string>
+    <string name="invoices">Invoices</string>
+    <string name="invoice_numb">Invoice number *</string>
+    <string name="amount">Amount *</string>
+    <string name="invoice_date">Invoice date *</string>
+    <string name="expiration_date">Expiration date *</string>
+    <string name="add_attach">📎  Add attachment</string>
+    <string name="add_invoice">Additional invoice</string>
+
+    <!--Dosserinformation-->
+    <string name="dossier_info">Dossier information</string>
+    <string name="dateset1">Dateset 1</string>
+    <string name="dateset2">Dateset 2</string>
+
+    <!--table-->
+    <string name="table_head_dossier">Dossier nr.</string>
+    <string name="table_head_debtor">Debtor</string>
+    <string name="table_head_status">Status</string>
+    <string name="table_head_recevie">To receive</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!--<string name="sal_dhr">Dhr</string>-->
+    <!--<string name="sal_mevr">Mevr</string>-->
+    <!--<string name="comp_dep1">Financial</string>-->
+    <!--<string name="comp_dep2">Booking</string>-->
+    <!--<string name="comp_dep3">Sales</string>-->
+
+    <!--<string name="privecy">Privecy</string>-->
+    <!--<string name="term_and_cond">Terms and Conditions</string>-->
+    <!--<string name="change_pass">Change password</string>-->
+    <!--<string name="logout">Log out</string>-->
+
+    <!--&lt;!&ndash;Home&ndash;&gt;-->
+    <!--<string name="blocks">Block 1</string>-->
+    <!--<string name="submit_new_dossier">Submit new dossier</string>-->
+
+    <!--&lt;!&ndash;Persanal information&ndash;&gt;-->
+    <!--<string name="change_info">Change Information</string>-->
+    <!--<string name="pers_info">Personal information</string>-->
+
+
+    <!--&lt;!&ndash;test&ndash;&gt;-->
+    <!--<string name="hello_blank_fragment">Hello blank fragment profile!!!</string>-->
+    <!--<string name="hello_blank_home">Hello blank fragment home!!!</string>-->
+    <!--<string name="hello_blank_profile">Hello blank fragment profile!!!</string>-->
+
+
+    <!--&lt;!&ndash; Strings related to login &ndash;&gt;-->
+    <!--<string name="prompt_username">Username</string>-->
+    <!--<string name="prompt_password">Password</string>-->
+    <!--<string name="action_sign_in">Sign in or register</string>-->
+    <!--<string name="action_sign_in_short">Log in</string>-->
+    <!--<string name="error_invalid_email">This email address is invalid</string>-->
+    <!--<string name="error_invalid_password">This password is too short</string>-->
+    <!--<string name="error_incorrect_password">This password is incorrect</string>-->
+    <!--<string name="error_field_required">This field is required</string>-->
+    <!--<string name="permission_rationale">"Contacts permissions are needed for providing email-->
+    <!--completions."-->
+    <!--</string>-->
+
+
+    <!--<string name="create_file">Create File</string>-->
+    <!--<string name="field_create">Fields with * are mandatory</string>-->
+
+
+    <string-array name="private_company">
+        <item>Private</item>
+        <item>Company</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_contact">ContactActivity</string>
+
+
+</resources>
+
